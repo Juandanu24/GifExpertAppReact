@@ -1,0 +1,62 @@
+.dark-mode {
+    background-color: #577C79;
+}
+
+.dark-mode p{
+    color: white;
+    font-weight: normal;
+
+}
+
+.dark-mode input{
+    color: rgba(10, 16, 16, 80%);
+    border: 1px darkgray solid;
+    background-color: white ;
+}
+
+.dark-mode h1{
+    color: white;
+    font-weight: bold;
+}
+.dark-mode h2{
+    color: white;
+    font-weight: bold;
+    background-color: rgba(10, 16, 16, 80%);
+
+}
+.dark-mode h3{
+    color: white;
+    background-color: rgba(10, 16, 16, 80%);
+
+}
+.dark-mode svg{
+    color: white;
+    background-color: rgba(10, 16, 16, 80%);
+
+}
+
+.dark-mode footer{
+    background-color: rgba(10, 16, 16, 80%);
+}
+.dark-mode .contenedor {
+    background-image: url(../assets/img/Diseño\ sin\ título.png);
+    background-color: rgba(10, 16, 16, 50%); ;
+}
+
+@media (min-width: 480px) {
+    .dark-mode .contenedor {
+        background-image: url(../assets/img/comics.jpg);
+    }
+    .dark-mode h2 {
+        font-size: 4.5rem;
+        background-color: rgba(10, 16, 16, 60%);
+    }
+    .dark-mode h3{
+        background-color: rgba(10, 16, 16, 60%);
+    }
+    .dark-mode svg {
+        background-color: rgba(10, 16, 16, 60%);
+    }
+}	
+
+
