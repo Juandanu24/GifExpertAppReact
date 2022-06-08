@@ -220,12 +220,12 @@ input {
 
 .dark-mode .contenedor {
     background-color: rgba(10, 16, 16, .5);
-    background-image: url(./static/media/Diseño\ sin\ título.16b324ff5a4f2051f839.png)
+    background-image: url(/docs/static/media/Diseño\ sin\ título.16b324ff5a4f2051f839.png)
 }
 
 @media (min-width:480px) {
     .dark-mode .contenedor {
-        background-image: url(./static/media/comics.6c04c30581e2ce76c7b9.jpg)
+        background-image: url(/docs/static/media/comics.6c04c30581e2ce76c7b9.jpg)
     }
 
     .dark-mode h2 {
